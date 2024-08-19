@@ -1,0 +1,96 @@
+<!--index.wxml-->
+<navigation-bar
+ title="天气"
+ back="{{false}}"
+ color="#fff"
+ background="transparent"
+/>
+<scroll-view class="scrollarea" scroll-y type="list">
+	<view class="container">
+		<view class="top">
+			<picker mode="region" bindchange="getUserProvince">
+			    <view class="city">{{city}}</view>
+			</picker>
+			<view class="city-temp">
+				<view class="temp">{{weather.temp}}</view>
+				<view class="temp2">℃</view>
+			</view>
+			<view class="temp3">{{weatherToday.tempMax}} / {{weatherToday.tempMin}} ℃</view>
+			<view class="temp3">{{weather.text}} {{weather.windDir}}</view>
+
+		</view>
+
+		<view class="module">
+			<view class="module-title">今日天气</view>
+			<view class="wt" scroll-y>
+				<view class="wt-item">
+					<view class="wt-item-title">{{weather.feelsLike }}℃</view>
+					<view class="wt-item-desc">体感温度</view>
+				</view>
+				<view class="wt-item">
+					<view class="wt-item-title">{{weatherToday.windScaleDay }}级</view>
+					<view class="wt-item-desc">风力</view>
+				</view>
+				<view class="wt-item">
+					<view class="wt-item-title">{{weatherToday.humidity }}</view>
+					<view class="wt-item-desc">空气湿度</view>
+				</view>
+				<view class="wt-item">
+					<view class="wt-item-title">{{weatherToday.sunrise}}</view>
+					<view class="wt-item-desc">日出时间</view>
+				</view>
+				<view class="wt-item">
+					<view class="wt-item-title">{{weatherToday.sunset}}</view>
+					<view class="wt-item-desc">日落时间</view>
+				</view>
+				<view class="wt-item">
+					<view class="wt-item-title">{{weatherToday.pressure}}</view>
+					<view class="wt-item-desc">气压</view>
+				</view>
+
+				<view class="wt-item">
+					<view class="wt-item-title">{{weatherToday.vis }} km</view>
+					<view class="wt-item-desc">能见度</view>
+				</view>
+
+			</view>
+		</view>
+
+		<view class="module">
+			<view class="module-title">空气质量</view>
+			<view class="air">
+				<view class="aqi">
+					<view class="aqi-title">{{air.aqi}}</view>
+					<view class="aqi-desc">空气质量指数</view>
+				</view>
+				<view class="aqi2">
+					<view>
+						<view class="aqi2-title">PM2.5</view>
+						<view class="aqi2-desc">{{air.pm2p5}}</view>
+					</view>
+					<view>
+						<view class="aqi2-title">PM10</view>
+						<view class="aqi2-desc">{{air.pm10}}</view>
+					</view>
+					<view>
+						<view class="aqi2-title">NO2</view>
+						<view class="aqi2-desc">{{air.no2}}</view>
+					</view>
+					<view>
+						<view class="aqi2-title">SO2</view>
+						<view class="aqi2-desc">{{air.so2}}</view>
+					</view>
+					<view>
+						<view class="aqi2-title">SO3</view>
+						<view class="aqi2-desc">{{air.co}}</view>
+					</view>
+					<view>
+						<view class="aqi2-title">O3</view>
+						<view class="aqi2-desc">{{air.o3}}</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</scroll-view>
+
