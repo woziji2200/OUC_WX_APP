@@ -193,10 +193,5 @@ Page({
                 that.methods.getWeather(false, false);
             },
         })
-        //    that.setData({
-        //           city: e.detail.value.reverse().join(' '),
-        //           code: e.detail.code[2]
-        //     })
-        //     that.methods.getWeather();
     }
 })
