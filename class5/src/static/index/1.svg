@@ -1,0 +1,43 @@
+<svg id="icon_1" data-name="icon 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.134" height="40.134" viewBox="0 0 40.134 40.134">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        opacity: 0.12;
+      }
+
+      .cls-5 {
+        opacity: 0.08;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.326" x2="0.689" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0385ff"/>
+      <stop offset="1" stop-color="#80c1ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="矩形_59" data-name="矩形 59" class="cls-1" width="40" height="40" rx="20" transform="translate(0.134)"/>
+  <g id="组_19" data-name="组 19">
+    <g id="组_16" data-name="组 16">
+      <path id="bg" class="cls-2" d="M40.134,20.067A20.067,20.067,0,1,0,20.067,40.134,20.1,20.1,0,0,0,40.134,20.067Z"/>
+      <path id="bg-2" data-name="bg" class="cls-3" d="M40.134,20.067A20.067,20.067,0,1,0,20.067,40.134,20.1,20.1,0,0,0,40.134,20.067Z"/>
+    </g>
+    <path id="circle" class="cls-4" d="M4.054-12A16.054,16.054,0,1,0,20.107,4.054,16.049,16.049,0,0,0,4.054-12Z" transform="translate(13.003 13.003)"/>
+    <path id="circle-2" data-name="circle" class="cls-5" d="M36.054,20A16.054,16.054,0,1,0,52.107,36.054,16.049,16.049,0,0,0,36.054,20Z" transform="translate(-12.977 -12.977)"/>
+    <g id="组_18" data-name="组 18" transform="translate(11.037 11.037)">
+      <g id="组_17" data-name="组 17">
+        <path id="路径_1" data-name="路径 1" class="cls-2" d="M17.709,8.167,9.7.251A.963.963,0,0,0,9.04,0a.87.87,0,0,0-.692.281L.311,8.167A1.206,1.206,0,0,0,0,9.01a1.06,1.06,0,0,0,1,1.134h1v6.5A1.341,1.341,0,0,0,3.261,18.06h.5a.376.376,0,0,0,.11-.01.711.711,0,0,0,.14.01H5.769a1.341,1.341,0,0,0,1.254-1.415v-3.1a1.079,1.079,0,0,1,1-1.134h2.007a1.079,1.079,0,0,1,1,1.134v3.1a1.341,1.341,0,0,0,1.254,1.415H14.8a1.341,1.341,0,0,0,1.254-1.415v-.562a2.834,2.834,0,0,0,.02-.291l-.03-5.649h1a1.079,1.079,0,0,0,1-1.134A1.014,1.014,0,0,0,17.709,8.167Z" transform="translate(0 0)"/>
+      </g>
+    </g>
+  </g>
+</svg>

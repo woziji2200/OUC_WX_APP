@@ -1,0 +1,41 @@
+<svg id="_002" data-name="002" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.347" height="41.347" viewBox="0 0 41.347 41.347">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        opacity: 0.12;
+      }
+
+      .cls-5 {
+        opacity: 0.08;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.326" x2="0.689" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8aad"/>
+      <stop offset="1" stop-color="#ff365e"/>
+    </linearGradient>
+  </defs>
+  <g id="icon_1" data-name="icon 1" transform="translate(0)">
+    <rect id="矩形_59" data-name="矩形 59" class="cls-1" width="40" height="40" rx="20" transform="translate(0.833)"/>
+    <g id="组_19" data-name="组 19">
+      <g id="组_16" data-name="组 16">
+        <path id="bg" class="cls-2" d="M41.347,20.673A20.673,20.673,0,1,0,20.673,41.347,20.707,20.707,0,0,0,41.347,20.673Z"/>
+        <path id="bg-2" data-name="bg" class="cls-3" d="M41.347,20.673A20.673,20.673,0,1,0,20.673,41.347,20.707,20.707,0,0,0,41.347,20.673Z"/>
+      </g>
+      <path id="circle" class="cls-4" d="M4-12A16,16,0,1,0,20,4,16,16,0,0,0,4-12Z" transform="translate(13 13)"/>
+      <path id="circle-2" data-name="circle" class="cls-5" d="M36,20A16,16,0,1,0,52,36,16,16,0,0,0,36,20Z" transform="translate(-13 -13)"/>
+    </g>
+  </g>
+  <path id="Vector" class="cls-2" d="M12.22,6.042a1.847,1.847,0,0,1-2.04-.8L8.64,2.662H8.58L7.04,5.242a1.847,1.847,0,0,1-2.04.8L1.41,5.022v4.69a1.348,1.348,0,0,0,1.02,1.31l5.74,1.44a1.87,1.87,0,0,0,.88,0l5.74-1.44a1.348,1.348,0,0,0,1.02-1.31V5.022ZM8.61.842,1.73,0a.457.457,0,0,0-.46.25L.1,2.592a.892.892,0,0,0,.55,1.27l4.6,1.32a.875.875,0,0,0,1.01-.43Zm0,0,2.35,3.91a.875.875,0,0,0,1.01.43l4.6-1.32a.9.9,0,0,0,.56-1.27L15.95.252A.457.457,0,0,0,15.49,0Z" transform="translate(11.388 13.907)"/>
+</svg>
